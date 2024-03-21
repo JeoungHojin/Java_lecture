@@ -8,9 +8,7 @@ public class EvenOdd {
 		System.out.println("정수를 입력하시오");
 		int su;
 		su = input.nextInt();
-		boolean isOdd;
-		isOdd = (su % 2 ==0);
-		if (isOdd = true) {
+		if (su % 2 == 0) {
 			System.out.println("짝수입니다.");
 		}
 		else {
