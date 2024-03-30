@@ -1,9 +1,8 @@
 
 public class ParseWWWtest {
 	// TODO Auto-generated method stub
-	ParseWWW p = new ParseWWW();
+	ParseWWW p = new ParseWWW(s,s3);
 	
-	while (p.str =! "quit") {
-		
-	}
+	p.input(s,s3);
+
 }
