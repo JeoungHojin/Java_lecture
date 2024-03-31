@@ -1,8 +1,9 @@
 
 public class ParseWWWtest {
 	// TODO Auto-generated method stub
-	ParseWWW p = new ParseWWW(s,s3);
-	
-	p.input(s,s3);
-
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ParseWWW p = new ParseWWW();
+		p.input(s,s3);
+	}
 }

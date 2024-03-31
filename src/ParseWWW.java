@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
 public class ParseWWW {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//main은 하나만 있어도 된다~
 		private String str;
 		private String start_3;
-	}
-	public ParseWWW(String s, String s3) {
+	
+	public ParseWWW() {
 		str = s;
 		start_3 = s3;
 	}
@@ -39,4 +38,4 @@ public class ParseWWW {
 			}
 		}
 	}
-}
+} 
