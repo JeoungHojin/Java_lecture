@@ -6,8 +6,7 @@ public class ParseWWW {
 		private String start_3;
 	
 	public ParseWWW() {
-		str = s;
-		start_3 = s3;
+		
 	}
 	
 	public String start_www(String str) {
@@ -18,7 +17,7 @@ public class ParseWWW {
 		return str + "\n"+str+"은 'www'로 시작하지 않습니다";
 	}
 	
-	public void input(String str, String start_3) {
+	public void input() {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		while(true) {
